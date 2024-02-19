@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: adithm123/hello-world-nodejs
-  tag: latest
+  repository: adithm123/git
+  tag: 25
 
 service:
   type: NodePort
