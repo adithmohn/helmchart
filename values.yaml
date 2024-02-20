@@ -2,12 +2,7 @@ replicaCount: 1
 
 image:
   repository: adithm123/git
-   pullPolicy: Always   # Change pullPolicy to Always to always pull the latest image
-  # Overrides the image tag whose default is the chart appVersion.
-  #tag: "{{ .Values.env.APP_VERSION }}"
-imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
+   pullPolicy: Always   
 
 service:
   type: NodePort
