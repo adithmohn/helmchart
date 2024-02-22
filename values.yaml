@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: adithm123/git
-  tag: 23
+  tag: latest
 
 service:
   type: NodePort
