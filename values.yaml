@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: adithm123/git
-  tag: latest
+  repository: adithm123/git:latest
+  #tag: latest
 
 service:
   type: NodePort
